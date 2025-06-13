@@ -1,29 +1,20 @@
 {
-  "name": "counter-app",
+  "name": "counter-app-react",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "11.10.0",
-    "npm": "6.7.0"
-  },
-  "homepage": "https://soni-world.github.io/counter-app",
+  "homepage": "https://soni-world.github.io/counter-app-react",
   "dependencies": {
-    "bootstrap": "^5.3.6",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-scripts": "^0.0.0",
-    "typescript": "^3.9.10"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +26,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^3.2.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   }
 }
